@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços | Espaço Amanda</title>
+    <link rel="stylesheet" href="parte 2,1 corrigido.css" type="text/css">
+</head>
+<body>
+ <header id="cabeçalho">
+     <nav class="faixaRed">
+        <img class="img" src="espaço amanda logo.jpg" height="65px" width="116px"> 
+        <div class="navmenumenor">  
+            <div class="linha1"></div>
+            <div class="linha2"></div>
+            <div class="linha3"></div>
+        </div>
+
+        <ul class="list">
+            <li><a href="/">Cabelos</a></li>
+            <li><a href="/">Mãos e pés</a></li>
+            <li><a href="/">Pelos</a></li>
+            <li><a href="/">Massagens e outros</a></li>
+        </ul>
+     </nav>
+ </header>
+ 
+ <main class="container">
+   <div class="CaixaCheckbox">  
+    <h2>Selecione os serviços:</h2>
+    <div class="container-checkbox">
+      <label><input type="checkbox" id="serv1" value="32" class="valor-checkbox"> Manicure R$ 32</label><br>
+      <label><input type="checkbox" id="serv2" value="33" class="valor-checkbox"> Pedicure R$ 33</label><br>
+      <label><input type="checkbox" id="serv3" value="19" class="valor-checkbox"> Troca de esmalte R$ 19</label><br>
+      <label><input type="checkbox" id="serv4" value="35" class="valor-checkbox"> Hidratação para mãos R$ 35</label><br>
+      <label><input type="checkbox" id="serv5" value="250" class="valor-checkbox"> Alongamento de unha R$ 250</label><br>
+      <label><input type="checkbox" id="serv6" value="120" class="valor-checkbox"> Manutenção de unha R$ 120</label><br>
+      <label><input type="checkbox" id="serv7" value="130" class="valor-checkbox"> Blindagem em gel R$ 130</label><br>
+      <label><input type="checkbox" id="serv8" value="100" class="valor-checkbox"> Podologia simples R$ 100</label><br>
+    </div>
+  </div>
+
+    <div class="barra-soma-fixa" id="barraSomaFixa">
+      <div class="itens-somados" id="itensSomados">
+        <span class="titulo-soma">Itens somados:</span><br>
+        Nenhum item selecionado.
+      </div>
+      <div class="titulo-soma">Soma dos valores: <span id="ValorDaConta">0</span></div>
+    </div>
+ </main>
+
+ <footer class="rodapé">
+    <div class="letras-rp">
+        Espaço Amanda<br>
+        Unidade: Amazonas shopping
+    </div>
+ </footer>
+
+ <script src="interação2.js"></script>
+</body>
+</html>
